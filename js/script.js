@@ -19,7 +19,7 @@ const tabNav = new TabNav(
   "[data-tab='content'] section"
 );
 tabNav.init();
-modal = new Modal(
+const modal = new Modal(
   "[data-modal='abrir']",
   "[data-modal='fechar']",
   "[data-modal='container']"
